@@ -1,0 +1,23 @@
+main{
+    width: 300px;
+    height: 600px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+}
+
+.azul {
+    transition:0.5s ease-in-out;
+    background-color: blue;
+}
+
+.vermelho {
+    background-color: #F42718;
+}
+
+.amarelo {
+    transition:0.5s ease-in-out;
+    background-color: yellow;
+}
