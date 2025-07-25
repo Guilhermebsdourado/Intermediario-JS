@@ -1,0 +1,80 @@
+body{
+    background: url(./img/imagem1.jpg) no-repeat center center / cover;
+    height: 90vh;
+}
+
+.imagem2 {
+    background-image: url(./img/imagem2.jpg);
+}
+
+.imagem3 {
+    background-image: url(./img/imagem3.jpg);
+}
+
+.imagem4 {
+    background-image: url(./img/imagem4.jpg);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 99vh;
+}
+
+section:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    margin: 40px;
+    width: 49px;
+    height: 78px;
+}
+
+.SetaEsquerda {
+    transform: rotate(180deg);
+}
+
+
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    
+    text-align: start;
+    width: 620px;
+    height: 700px;
+    /* padding: 20px; */
+    background-color: white;
+}
+
+.principal h1 {
+    display: flex;
+    align-items: end;
+    font-size: 50px;
+    font-weight: 400;
+    height: 59px;
+    margin: 60px 0 20px 50px;
+}
+
+.principal p {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 300;
+    width: 500px;
+    height: 346px;
+    margin: 30px 0 20px 50px ;
+}
+
+.SaibaMais {
+    font-size: 30px;
+    font-weight: 700;
+    color: #C50000;
+    width: 149px;
+    height: 35px;
+    margin: 45px 0 20px 50px ;
+}
